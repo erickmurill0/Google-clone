@@ -40,5 +40,97 @@ header{
 }
 .nav-right-section img {
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 1rem;
+}
+main {
+    margin-top: 15rem;
+    text-align: center;
+    position: relative;
+    bottom: 6rem;
+}
+.main-logo {
+    width: 53rem;
+    /*lo centra*/
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+.main-logo img {
+    /*cambiando el width del logo*/
+    width: 27.2rem;
+}
+.main-input {
+    width: 53rem;
+    margin: 0 auto;   
+    margin-bottom: 35px;
+}
+.main-input-container {
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-input input {
+    width: 45rem;
+    height: 4rem;
+    /*quita el borde*/
+    border: none;
+    /*Nos sirve para quitar el borde generado cuando damos click a un input*/
+    outline: none;
+}
+.main-input-container:hover {
+    /*sombra*/
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+.main-input .search-icon {
+    /*igual con el icono del menu*/
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+.main-input .micro-icon {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    /*cursos de mano*/
+    cursor: pointer;
+}
+.main-buttons {
+    width: 530px;
+    margin: 0 auto;
+}
+.main-buttons div {
+    /*los coloca horinzontal*/
+    display: inline-block;
+}
+.main-buttons button {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+/*efecto al pasar*/
+.main-buttons button:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.main-footer{
+    font-size: small;
+    text-align: center;
+    margin: 3rem;
 }
