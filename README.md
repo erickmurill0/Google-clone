@@ -3,7 +3,7 @@
 
 ## Description 👋🏼
 
-This proyect is a clone of [Google.com](https://www.google.com/). It is the most used search. engine.
+This proyect is a clone of [Google.com](https://www.google.com/). It is the most used search engine.
  I make this project just for entertainment :) 
 
 \
